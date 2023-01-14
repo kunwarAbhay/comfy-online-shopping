@@ -1,0 +1,222 @@
+@media (max-width: 1630px) {
+  .user-detail-container {
+    right: 14%;
+    transform: translate(0, 96%);
+  }
+}
+
+@media (max-width: 1160px) {
+  .featured-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nav-links {
+    gap: 3rem;
+  }
+
+  .about-page {
+    max-width: 70vw;
+  }
+
+  .single-product-content {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 910px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .featured-content {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-image {
+    height: 30rem;
+  }
+
+  .products-container .featured-image {
+    height: 24rem;
+  }
+
+  .nav-links {
+    gap: 2rem;
+  }
+
+  .nav-bar {
+    height: 8.8rem;
+  }
+
+  .single-product-content {
+    grid-template-columns: 1fr;
+  }
+
+  .product-feature {
+    width: 80%;
+  }
+
+  .nav-bar-center {
+    height: auto;
+  }
+
+  .products-container .single-content h4 {
+    font-size: 1.8rem;
+  }
+
+  .products-container .single-content p {
+    font-size: 1.7rem;
+  }
+
+  .cart-logo,
+  .logged-in-logo {
+    font-size: 3.8rem;
+  }
+
+  .cart-logo p {
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .logo-container {
+    margin-top: 1.6rem;
+  }
+
+  .image-btns {
+    font-size: 2.4rem;
+  }
+
+  .image-search-btn,
+  .image-cart-btn {
+    height: 4.4rem;
+    width: 4.4rem;
+  }
+
+  .your-bag {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+
+  .item-details .remove,
+  .item-details .title,
+  .item-details .price {
+    font-size: 1.65rem;
+  }
+
+  .item-details img {
+    width: 12.5rem;
+  }
+
+  .item-details .plus-minus {
+    font-size: 2.6rem;
+  }
+
+  .item-details .quantity {
+    font-size: 2rem;
+  }
+
+  .quntity-plus-m {
+    gap: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-link-menu-btn {
+    display: block;
+  }
+
+  .main-heading {
+    font-size: 6.2rem;
+  }
+
+  .main-para {
+    font-size: 2.4rem;
+  }
+
+  .about-page {
+    max-width: 80vw;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 50%;
+  }
+
+  .products-content {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+  }
+
+  .search-text {
+    width: 60%;
+  }
+
+  .range-scroll {
+    width: 60%;
+  }
+
+  .product-feature {
+    width: 100%;
+  }
+
+  .btn-shop-now {
+    font-size: 2rem;
+  }
+
+  .search-text {
+    font-size: 2rem;
+  }
+
+  .companies h4,
+  .form-range label {
+    font-size: 2.1rem;
+  }
+
+  .companies p,
+  .form-range p {
+    font-size: 1.95rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-heading span {
+    display: block;
+  }
+
+  .main-heading {
+    font-size: 8rem;
+  }
+
+  .comfy-logo {
+    width: 13.5rem;
+    transform: translateX(-70%);
+  }
+
+  .about-page {
+    max-width: 85vw;
+  }
+
+  .search-text {
+    width: 100%;
+  }
+
+  .range-scroll {
+    width: 100%;
+  }
+
+  .product-img {
+    height: 35rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .comfy-logo {
+    transform: translate(-88%, 3%);
+  }
+}
